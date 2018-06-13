@@ -1,0 +1,21 @@
+# Site settings
+title: Learning to Code at Flatiron School
+header-img: img/home-bg.png
+email: shkusiak@gmail.com
+copyright_name: shkusiak
+description: > # this means to ignore newlines until "baseurl:"
+  and here is my journey...
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  shkusiak
+learn_profile: shkusiak
+email_username: shkusiak@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
