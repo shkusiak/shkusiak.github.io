@@ -5,9 +5,8 @@ date:       2018-09-26 12:14:18 -0400
 permalink:  exploring_the_long_tail_of_shoes
 ---
 
-# Exploring the Long Tail of Shoes 
-
-> “A best-seller and a neverseller are just two entries in a database; equal in the eyes of technology and the economics of storage.” ― Chris Anderson, The Long Tail: Why the Future Is Selling Less of More
+# Exploring the Long Tail of Shoes
+> > “A best-seller and a neverseller are just two entries in a database; equal in the eyes of technology and the economics of storage.” ― Chris Anderson, The Long Tail: Why the Future Is Selling Less of More
 
 The above quote speaks to me. Two books are entered into a database of books through a CRUD app. They each have attributes: title, author, cost, genre, summary, rating, reviews, etc. They each have roughly the same word count and when printed are similar in dimensions and weight. How do I as a user know which one to buy? Ratings and reviews? Not always... 
 
