@@ -5,6 +5,8 @@ date:       2018-09-26 12:14:18 -0400
 permalink:  exploring_the_long_tail_of_shoes
 ---
 
+
+.
 # Exploring the Long Tail of Shoes
 > > “A best-seller and a neverseller are just two entries in a database; equal in the eyes of technology and the economics of storage.” ― Chris Anderson, The Long Tail: Why the Future Is Selling Less of More
 
@@ -19,7 +21,7 @@ My app is written in Sinatra/ActiveRecord and uses a MVC (model, view, controlle
 
 The next step was to create a db folder for the database. Before creating the files, I tried stubing out the objects I wanted to create on paper, and mapping out the relationship I wanted them to have. I decided I wanted two models: users and shoes with relationships of `belongs_to` and `has_many`. In order to make the databases I created two migrations for :users and :shoes.  To make the tables I used `rake db:create_migration NAME="create_users"`. The users each have attributes username, email & password, while the shoes have name, manufacturer, description, color and cost. 
 
-**Hint:** Don't forget to make sure the model with the `belongs_to` relationship also has an  ` t.integer :user_id` attribute! I learned that hard way... Once the columns were identified I ran `rake db:migrate` to get the database set up.
+**Hint:** Don't forget to make sure the model with the `belongs_to` relationship also has an  `t.integer :user_id` attribute! I learned that hard way... Once the columns were identified I ran `rake db:migrate` to get the database set up.
 
 After the DB was set up, I started to map out the models, views, and controllers within my app folder. The models were quick and easy to write because they were just to match the db I set up. So, next I started by thinking about which pages or views the user should see. Index, signup, login, shoes, create_shoe, edit_shoe, shoe/:id and then a layout page to show information that will be on all pages. One page I forgot about until the end was a page to show only one users shoes.
 
