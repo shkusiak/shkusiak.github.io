@@ -1,10 +1,11 @@
 ---
 layout: post
 title:      "Exploring the Long Tail of Shoes "
-date:       2018-09-26 16:14:17 +0000
+date:       2018-09-26 12:14:18 -0400
 permalink:  exploring_the_long_tail_of_shoes
 ---
 
+# Exploring the Long Tail of Shoes 
 
 > “A best-seller and a neverseller are just two entries in a database; equal in the eyes of technology and the economics of storage.” ― Chris Anderson, The Long Tail: Why the Future Is Selling Less of More
 
